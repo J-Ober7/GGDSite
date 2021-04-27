@@ -26,12 +26,7 @@
 
 ### Engine Architecture Diagram
 
-![image](https://user-images.githubusercontent.com/55151815/116157706-7495c680-a6bb-11eb-8f91-7628da17df42.png)
-
-
-
-### Binary
-
+![Architecture Diagram](Media/Images/diagram.png)
 
 
 ### Post Mortem
