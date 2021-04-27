@@ -1,10 +1,11 @@
 ## Welcome to the Games Get Developed Site
 
 ### Trailer
-
+[![](Media/Images/SS3.png)](https://youtu.be/qyyo-C-4Mvs)
 
 
 ### Screen Shots
+![Video of Editor](Media/2021-04-27 01-41-13.mp4)
 #### Game
 ##### Debug Mode
 ![Image of Game](Media/Images/ScreenShot1.png)
