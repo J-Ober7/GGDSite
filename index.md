@@ -6,12 +6,12 @@
 
 ### Screen Shots
 #### Game
-![Image of Game](https://github.com/J-Ober7/GGDSite/blob/07f4857b161962ced63cb2f2a0c0a4d86eb983de/Media/Images/ScreenShot1.png)
+![Image of Game](Media/Images/ScreenShot1.png)
 
 #### Editor
 
-![image of editor](https://github.com/J-Ober7/GGDSite/blob/07f4857b161962ced63cb2f2a0c0a4d86eb983de/Media/Images/SS2.png)
-![image of editor](https://github.com/J-Ober7/GGDSite/blob/07f4857b161962ced63cb2f2a0c0a4d86eb983de/Media/Images/SS3.png)
+![image of editor](Media/Images/SS2.png)
+![image of editor](Media/Images/SS3.png)
 
 ### Documentation
 
