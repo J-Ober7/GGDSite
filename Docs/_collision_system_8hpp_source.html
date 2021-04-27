@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>A2 Platformer: include/CollisionSystem.hpp Source File</title>
+<title>GGD Engine: Include/CollisionSystem.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">A2 Platformer
+   <div id="projectname">GGD Engine
    </div>
   </td>
  </tr>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_856524284ebe840938865dc061f982fb.html">Include</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -78,35 +78,37 @@ $(function() {
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_collision_system.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_collision_system.html">CollisionSystem</a> {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="class_collision_system.html#ac8b1ff32bb9c9ff3e765c2b334713454">CollisionSystem</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_collision_system.html#ac8b1ff32bb9c9ff3e765c2b334713454">   19</a></span>&#160;        <a class="code" href="class_collision_system.html#ac8b1ff32bb9c9ff3e765c2b334713454">CollisionSystem</a>();</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="class_collision_system.html#a128d2a8b457f119368f0c9fc95ed61f6">~CollisionSystem</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_collision_system.html#a128d2a8b457f119368f0c9fc95ed61f6">   25</a></span>&#160;        <a class="code" href="class_collision_system.html#a128d2a8b457f119368f0c9fc95ed61f6">~CollisionSystem</a>();</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_collision_system.html#a8354dac7acab73af8119c9d636f3d239">init</a>(<a class="code" href="class_tile_map_factory.html">TileMapFactory</a>* factory);</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_collision_system.html#a8354dac7acab73af8119c9d636f3d239">   30</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_collision_system.html#a8354dac7acab73af8119c9d636f3d239">init</a>(<a class="code" href="class_tile_map_factory.html">TileMapFactory</a>* factory);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_collision_system.html#a87e73cfc50c93592feb1f26871a7a6b7">shutDown</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_collision_system.html#a87e73cfc50c93592feb1f26871a7a6b7">   36</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_collision_system.html#a87e73cfc50c93592feb1f26871a7a6b7">shutDown</a>();</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="class_collision_component.html">CollisionComponent</a>* <a class="code" href="class_collision_system.html#a51d272f9d43cf41645749ab5b076b884">requestComponent</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_collision_system.html#aedf2eb6d33d21409326aa4dc911234c7">   41</a></span>&#160;        <a class="code" href="class_collision_component.html">CollisionComponent</a>* <a class="code" href="class_collision_system.html#aedf2eb6d33d21409326aa4dc911234c7">RequestComponent</a>();</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_collision_system.html#a968165214f5eec853c2aadea39acc998">checkCollisions</a>();</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        std::vector&lt;CollisionComponent *&gt; GameColliders;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="class_tile_map_factory.html">TileMapFactory</a>* tmf;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;};</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="class_collision_system.html#a968165214f5eec853c2aadea39acc998">   47</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_collision_system.html#a968165214f5eec853c2aadea39acc998">checkCollisions</a>();</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="class_collision_system.html#a32f2e699b8db84bce31fbc744c5d9c12">   51</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_collision_system.html#a32f2e699b8db84bce31fbc744c5d9c12">handleCollisions</a>();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        std::vector&lt;CollisionComponent *&gt; GameColliders;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="class_tile_map_factory.html">TileMapFactory</a>* tmf;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="a_collision_component_8hpp_html"><div class="ttname"><a href="_collision_component_8hpp.html">CollisionComponent.hpp</a></div></div>
 <div class="ttc" id="a_tile_map_factory_8hpp_html"><div class="ttname"><a href="_tile_map_factory_8hpp.html">TileMapFactory.hpp</a></div></div>
 <div class="ttc" id="aclass_collision_component_html"><div class="ttname"><a href="class_collision_component.html">CollisionComponent</a></div><div class="ttdoc">A Component which allows the gameObject to collide with other collidable objects.</div><div class="ttdef"><b>Definition:</b> CollisionComponent.hpp:10</div></div>
 <div class="ttc" id="aclass_collision_system_html"><div class="ttname"><a href="class_collision_system.html">CollisionSystem</a></div><div class="ttdoc">This may function as more of a factory class, but for now, this is the collision module that will hol...</div><div class="ttdef"><b>Definition:</b> CollisionSystem.hpp:12</div></div>
-<div class="ttc" id="aclass_collision_system_html_a128d2a8b457f119368f0c9fc95ed61f6"><div class="ttname"><a href="class_collision_system.html#a128d2a8b457f119368f0c9fc95ed61f6">CollisionSystem::~CollisionSystem</a></div><div class="ttdeci">~CollisionSystem()</div><div class="ttdoc">Destroy the Collision System object.</div><div class="ttdef"><b>Definition:</b> CollisionSystem.cpp:7</div></div>
-<div class="ttc" id="aclass_collision_system_html_a51d272f9d43cf41645749ab5b076b884"><div class="ttname"><a href="class_collision_system.html#a51d272f9d43cf41645749ab5b076b884">CollisionSystem::requestComponent</a></div><div class="ttdeci">CollisionComponent * requestComponent()</div><div class="ttdef"><b>Definition:</b> CollisionSystem.cpp:22</div></div>
-<div class="ttc" id="aclass_collision_system_html_a8354dac7acab73af8119c9d636f3d239"><div class="ttname"><a href="class_collision_system.html#a8354dac7acab73af8119c9d636f3d239">CollisionSystem::init</a></div><div class="ttdeci">void init(TileMapFactory *factory)</div><div class="ttdef"><b>Definition:</b> CollisionSystem.cpp:11</div></div>
-<div class="ttc" id="aclass_collision_system_html_a87e73cfc50c93592feb1f26871a7a6b7"><div class="ttname"><a href="class_collision_system.html#a87e73cfc50c93592feb1f26871a7a6b7">CollisionSystem::shutDown</a></div><div class="ttdeci">void shutDown()</div><div class="ttdoc">Free any memory associated with the collision componenets.</div><div class="ttdef"><b>Definition:</b> CollisionSystem.cpp:15</div></div>
-<div class="ttc" id="aclass_collision_system_html_a968165214f5eec853c2aadea39acc998"><div class="ttname"><a href="class_collision_system.html#a968165214f5eec853c2aadea39acc998">CollisionSystem::checkCollisions</a></div><div class="ttdeci">void checkCollisions()</div><div class="ttdef"><b>Definition:</b> CollisionSystem.cpp:43</div></div>
-<div class="ttc" id="aclass_collision_system_html_ac8b1ff32bb9c9ff3e765c2b334713454"><div class="ttname"><a href="class_collision_system.html#ac8b1ff32bb9c9ff3e765c2b334713454">CollisionSystem::CollisionSystem</a></div><div class="ttdeci">CollisionSystem()</div><div class="ttdoc">Construct a new Collision System object.</div><div class="ttdef"><b>Definition:</b> CollisionSystem.cpp:3</div></div>
-<div class="ttc" id="aclass_tile_map_factory_html"><div class="ttname"><a href="class_tile_map_factory.html">TileMapFactory</a></div><div class="ttdoc">Creates TileMapComponents.</div><div class="ttdef"><b>Definition:</b> TileMapFactory.hpp:20</div></div>
+<div class="ttc" id="aclass_collision_system_html_a128d2a8b457f119368f0c9fc95ed61f6"><div class="ttname"><a href="class_collision_system.html#a128d2a8b457f119368f0c9fc95ed61f6">CollisionSystem::~CollisionSystem</a></div><div class="ttdeci">~CollisionSystem()</div><div class="ttdoc">Destroy the Collision System object.</div></div>
+<div class="ttc" id="aclass_collision_system_html_a32f2e699b8db84bce31fbc744c5d9c12"><div class="ttname"><a href="class_collision_system.html#a32f2e699b8db84bce31fbc744c5d9c12">CollisionSystem::handleCollisions</a></div><div class="ttdeci">void handleCollisions()</div></div>
+<div class="ttc" id="aclass_collision_system_html_a8354dac7acab73af8119c9d636f3d239"><div class="ttname"><a href="class_collision_system.html#a8354dac7acab73af8119c9d636f3d239">CollisionSystem::init</a></div><div class="ttdeci">void init(TileMapFactory *factory)</div></div>
+<div class="ttc" id="aclass_collision_system_html_a87e73cfc50c93592feb1f26871a7a6b7"><div class="ttname"><a href="class_collision_system.html#a87e73cfc50c93592feb1f26871a7a6b7">CollisionSystem::shutDown</a></div><div class="ttdeci">void shutDown()</div><div class="ttdoc">Free any memory associated with the collision componenets.</div></div>
+<div class="ttc" id="aclass_collision_system_html_a968165214f5eec853c2aadea39acc998"><div class="ttname"><a href="class_collision_system.html#a968165214f5eec853c2aadea39acc998">CollisionSystem::checkCollisions</a></div><div class="ttdeci">void checkCollisions()</div></div>
+<div class="ttc" id="aclass_collision_system_html_ac8b1ff32bb9c9ff3e765c2b334713454"><div class="ttname"><a href="class_collision_system.html#ac8b1ff32bb9c9ff3e765c2b334713454">CollisionSystem::CollisionSystem</a></div><div class="ttdeci">CollisionSystem()</div><div class="ttdoc">Construct a new Collision System object.</div></div>
+<div class="ttc" id="aclass_collision_system_html_aedf2eb6d33d21409326aa4dc911234c7"><div class="ttname"><a href="class_collision_system.html#aedf2eb6d33d21409326aa4dc911234c7">CollisionSystem::RequestComponent</a></div><div class="ttdeci">CollisionComponent * RequestComponent()</div></div>
+<div class="ttc" id="aclass_tile_map_factory_html"><div class="ttname"><a href="class_tile_map_factory.html">TileMapFactory</a></div><div class="ttdoc">Creates TileMapComponents.</div><div class="ttdef"><b>Definition:</b> TileMapFactory.hpp:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

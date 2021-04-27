@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>A2 Platformer: CollisionSystem Class Reference</title>
+<title>GGD Engine: CollisionSystem Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">A2 Platformer
+   <div id="projectname">GGD Engine
    </div>
   </td>
  </tr>
@@ -87,10 +87,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a87e73cfc50c93592feb1f26871a7a6b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_system.html#a87e73cfc50c93592feb1f26871a7a6b7">shutDown</a> ()</td></tr>
 <tr class="memdesc:a87e73cfc50c93592feb1f26871a7a6b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free any memory associated with the collision componenets.  <a href="class_collision_system.html#a87e73cfc50c93592feb1f26871a7a6b7">More...</a><br /></td></tr>
 <tr class="separator:a87e73cfc50c93592feb1f26871a7a6b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51d272f9d43cf41645749ab5b076b884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_collision_component.html">CollisionComponent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_system.html#a51d272f9d43cf41645749ab5b076b884">requestComponent</a> ()</td></tr>
-<tr class="separator:a51d272f9d43cf41645749ab5b076b884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedf2eb6d33d21409326aa4dc911234c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_collision_component.html">CollisionComponent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_system.html#aedf2eb6d33d21409326aa4dc911234c7">RequestComponent</a> ()</td></tr>
+<tr class="separator:aedf2eb6d33d21409326aa4dc911234c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a968165214f5eec853c2aadea39acc998"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_system.html#a968165214f5eec853c2aadea39acc998">checkCollisions</a> ()</td></tr>
 <tr class="separator:a968165214f5eec853c2aadea39acc998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32f2e699b8db84bce31fbc744c5d9c12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_system.html#a32f2e699b8db84bce31fbc744c5d9c12">handleCollisions</a> ()</td></tr>
+<tr class="separator:a32f2e699b8db84bce31fbc744c5d9c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This may function as more of a factory class, but for now, this is the collision module that will hold all the collisions, and check each frame for collisions between two colliders. </p>
@@ -152,6 +154,24 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a32f2e699b8db84bce31fbc744c5d9c12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32f2e699b8db84bce31fbc744c5d9c12">&#9670;&nbsp;</a></span>handleCollisions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CollisionSystem::handleCollisions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tells all the collider componenets created through this factory to handle their collisions </p>
+
+</div>
+</div>
 <a id="a8354dac7acab73af8119c9d636f3d239"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8354dac7acab73af8119c9d636f3d239">&#9670;&nbsp;</a></span>init()</h2>
 
@@ -171,14 +191,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a51d272f9d43cf41645749ab5b076b884"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51d272f9d43cf41645749ab5b076b884">&#9670;&nbsp;</a></span>requestComponent()</h2>
+<a id="aedf2eb6d33d21409326aa4dc911234c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedf2eb6d33d21409326aa4dc911234c7">&#9670;&nbsp;</a></span>RequestComponent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_collision_component.html">CollisionComponent</a> * CollisionSystem::requestComponent </td>
+          <td class="memname"><a class="el" href="class_collision_component.html">CollisionComponent</a>* CollisionSystem::RequestComponent </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -208,9 +228,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li>include/<a class="el" href="_collision_system_8hpp_source.html">CollisionSystem.hpp</a></li>
-<li>src/<a class="el" href="_collision_system_8cpp.html">CollisionSystem.cpp</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Include/<a class="el" href="_collision_system_8hpp_source.html">CollisionSystem.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

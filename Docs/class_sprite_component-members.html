@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>A2 Platformer: Member List</title>
+<title>GGD Engine: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">A2 Platformer
+   <div id="projectname">GGD Engine
    </div>
   </td>
  </tr>
@@ -68,11 +68,19 @@ $(function() {
 
 <p>This is the complete list of members for <a class="el" href="class_sprite_component.html">SpriteComponent</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="class_sprite_component.html#a2d1f6bc7680f785dc8bae067e6a1324a">ApplyCamera</a>(SDL_Rect cam)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_sprite_component.html#acc27525ad39f5938131866fe11ccec30">init</a>(int x, int y, int w, int h, std::string path, ResourceManager *rm, SDL_Renderer *ren)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_sprite_component.html#ae2ea73446ba8240a992124d51c7f2f9b">init</a>(int x, int y, int w, int h, std::string path, ResourceManager *rm, SDL_Renderer *ren, int para)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_sprite_component.html#aaf2f13b2959e77c1fb900904be0984b9">AddAnimation</a>(std::string animationName, int firstFrame, int lastFrame)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_sprite_component.html#a2d1f6bc7680f785dc8bae067e6a1324a">ApplyCamera</a>(SDL_Rect cam)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_sprite_component.html#a2cb7e7e65bb6f793637827df34451028">FlipHorizontal</a>(bool flip)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_sprite_component.html#a05dce756bda080ca863458dbf09f4b5d">FlipVertical</a>(bool flip)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_sprite_component.html#a6a990688ac94d03c9d605d89d0627b93">init</a>(int x, int y, int w, int h, int firstFrame, int lastFrame, int spriteWidth, int spriteHeight, int spriteSheetRows, int spriteSheetCols, std::string path)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_sprite_component.html#ac8d46934c586d924cdffc59e41a2ac47">init</a>(int x, int y, int w, int h, int firstFrame, int lastFrame, int spriteWidth, int spriteHeight, int spriteSheetRows, int spriteSheetCols, std::string path, int para)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_sprite_component.html#afa38791575530e271ea7f91c24e7c616">m_animateSpeed</a></td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_sprite_component.html#ae0fdca26ae5beb6602cce7edca97c0a4">Render</a>(SDL_Renderer *renderer) override</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_sprite_component.html#ac8b2d3d04c0c66af2b5ce2565385b58c">SpriteComponent</a>()</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_sprite_component.html#accd1a365e3e030ee32c3591330f482e2">SetFrames</a>(int firstFrame, int lastFrame)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_sprite_component.html#a871bbfe19076a91367be0bd8babcae48">SetFrames</a>(std::string animationName)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_sprite_component.html#a9aa4b17fac349ab4bad3f349129041d6">SetSpriteOffset</a>(int x, int y)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_sprite_component.html#ac8b2d3d04c0c66af2b5ce2565385b58c">SpriteComponent</a>()</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_sprite_component.html#aa14aa48b56f1f077eb34191f23f32ecb">SpriteComponent</a>(ResourceManager *rm, SDL_Renderer *ren)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_sprite_component.html#a95215812abebc7a4d2363415df242112">Update</a>(GameObject &amp;gameObject)</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_sprite_component.html#add14acc8523a724c112e6c93b750b60e">~SpriteComponent</a>()</td><td class="entry"><a class="el" href="class_sprite_component.html">SpriteComponent</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->

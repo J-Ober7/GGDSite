@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>A2 Platformer: PhysicsFactory Class Reference</title>
+<title>GGD Engine: PhysicsFactory Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">A2 Platformer
+   <div id="projectname">GGD Engine
    </div>
   </td>
  </tr>
@@ -82,9 +82,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa4421bc8686d1245c7544bf9f0e5f3f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_factory.html#aa4421bc8686d1245c7544bf9f0e5f3f7">~PhysicsFactory</a> ()</td></tr>
 <tr class="memdesc:aa4421bc8686d1245c7544bf9f0e5f3f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor.  <a href="class_physics_factory.html#aa4421bc8686d1245c7544bf9f0e5f3f7">More...</a><br /></td></tr>
 <tr class="separator:aa4421bc8686d1245c7544bf9f0e5f3f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec6188eeb7f2668d2a8b4ea2ffc88b82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_physics_component.html">PhysicsComponent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_factory.html#aec6188eeb7f2668d2a8b4ea2ffc88b82">RequestComponent</a> ()</td></tr>
-<tr class="memdesc:aec6188eeb7f2668d2a8b4ea2ffc88b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to a new <a class="el" href="class_physics_component.html" title="A component which allows a GameObject to move.">PhysicsComponent</a>.  <a href="class_physics_factory.html#aec6188eeb7f2668d2a8b4ea2ffc88b82">More...</a><br /></td></tr>
-<tr class="separator:aec6188eeb7f2668d2a8b4ea2ffc88b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42402a861c165b77da14ae72d64de409"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_physics_component.html">PhysicsComponent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_factory.html#a42402a861c165b77da14ae72d64de409">RequestComponent</a> ()</td></tr>
+<tr class="memdesc:a42402a861c165b77da14ae72d64de409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to a new <a class="el" href="class_physics_component.html" title="A component which allows a GameObject to move.">PhysicsComponent</a>.  <a href="class_physics_factory.html#a42402a861c165b77da14ae72d64de409">More...</a><br /></td></tr>
+<tr class="separator:a42402a861c165b77da14ae72d64de409"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f3ed40a1ae8bcdeaa76c2cc512009a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_factory.html#a7f3ed40a1ae8bcdeaa76c2cc512009a0">DeleteAll</a> ()</td></tr>
 <tr class="memdesc:a7f3ed40a1ae8bcdeaa76c2cc512009a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees all the <a class="el" href="class_physics_component.html" title="A component which allows a GameObject to move.">PhysicsComponent</a> created by the factory from memory.  <a href="class_physics_factory.html#a7f3ed40a1ae8bcdeaa76c2cc512009a0">More...</a><br /></td></tr>
 <tr class="separator:a7f3ed40a1ae8bcdeaa76c2cc512009a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,18 +147,17 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Frees all the <a class="el" href="class_physics_component.html" title="A component which allows a GameObject to move.">PhysicsComponent</a> created by the factory from memory. </p>
-<p>Frees all the Transform components created by the factory from memory </p>
 
 </div>
 </div>
-<a id="aec6188eeb7f2668d2a8b4ea2ffc88b82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec6188eeb7f2668d2a8b4ea2ffc88b82">&#9670;&nbsp;</a></span>RequestComponent()</h2>
+<a id="a42402a861c165b77da14ae72d64de409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42402a861c165b77da14ae72d64de409">&#9670;&nbsp;</a></span>RequestComponent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_physics_component.html">PhysicsComponent</a> * PhysicsFactory::RequestComponent </td>
+          <td class="memname"><a class="el" href="class_physics_component.html">PhysicsComponent</a>* PhysicsFactory::RequestComponent </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -167,13 +166,11 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a pointer to a new <a class="el" href="class_physics_component.html" title="A component which allows a GameObject to move.">PhysicsComponent</a>. </p>
-<p>Returns a pointer to a new <a class="el" href="class_tile_map_component.html" title="This is a minimal implementation of a TileMap.">TileMapComponent</a> </p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li>include/<a class="el" href="_physics_factory_8hpp_source.html">PhysicsFactory.hpp</a></li>
-<li>src/<a class="el" href="_physics_factory_8cpp.html">PhysicsFactory.cpp</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Include/<a class="el" href="_physics_factory_8hpp_source.html">PhysicsFactory.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
