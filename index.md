@@ -6,7 +6,11 @@
 
 ### Screen Shots
 #### Game
+##### Debug Mode
 ![Image of Game](Media/Images/ScreenShot1.png)
+
+##### Normal
+![Image of Game](Media/Images/GS2.png)
 
 #### Editor
 
