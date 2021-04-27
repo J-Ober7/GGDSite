@@ -21,7 +21,7 @@
 ![image of editor](Media/Images/SS3.png)
 
 ### Documentation
-<a href="/GGDSite/Docs/">Documentation here</a>
+<a href="GGDSite/Docs/">Documentation here</a>
 
 
 ### Engine Architecture Diagram
