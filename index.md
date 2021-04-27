@@ -5,8 +5,13 @@
 
 
 ### Screen Shots
-![Image of Game](Media/Images/ScreenShot1.png)
+#### Game
+![Image of Game](https://github.com/J-Ober7/GGDSite/blob/07f4857b161962ced63cb2f2a0c0a4d86eb983de/Media/Images/ScreenShot1.png)
 
+#### Editor
+
+![image of editor](https://github.com/J-Ober7/GGDSite/blob/07f4857b161962ced63cb2f2a0c0a4d86eb983de/Media/Images/SS2.png)
+![image of editor](https://github.com/J-Ober7/GGDSite/blob/07f4857b161962ced63cb2f2a0c0a4d86eb983de/Media/Images/SS3.png)
 
 ### Documentation
 
@@ -15,6 +20,8 @@
 ### Engine Architecture Diagram
 
 ![image](https://user-images.githubusercontent.com/55151815/116157706-7495c680-a6bb-11eb-8f91-7628da17df42.png)
+
+
 
 ### Binary
 
