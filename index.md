@@ -5,7 +5,7 @@
 
 
 ### Screen Shots
-
+![Image of Game](Media/Images/ScreenShot1.png)
 
 
 ### Documentation
