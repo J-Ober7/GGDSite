@@ -20,10 +20,6 @@
 ![image of editor](Media/Images/SS2.png)
 ![image of editor](Media/Images/SS3.png)
 
-### Documentation
-<a href="GGDSite/Docs/">Documentation here</a>
-
-
 ### Engine Architecture Diagram
 
 ![Architecture Diagram](Media/Images/diagram.png)
